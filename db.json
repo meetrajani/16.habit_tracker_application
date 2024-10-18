@@ -1,0 +1,45 @@
+{
+  "alldata": [
+    {
+      "firstName": "meet",
+      "lastName": "rajani",
+      "email": "rmit9542@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "userRole": "Admin",
+      "id": 1
+    },
+    {
+      "firstName": "jay",
+      "lastName": "gandhi",
+      "email": "jay@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "userRole": "User",
+      "id": 2,
+      "habits": [
+        {
+          "id": "1a2b3c4d", 
+          "name": "Morning Run",
+          "goal": "Run 5km every day", 
+          "startDate": "2024-10-16", 
+          "frequency": "daily", 
+          "completed": false,
+          "progressType": "weekly",
+          "progress": 0 
+        },
+        {
+          "id": "2e3f4g5h",
+          "name": "Reading",
+          "goal": "Read 20 pages daily",
+          "startDate": "2024-10-17",
+          "frequency": "daily",
+          "completed": false,
+          "progressType": "daily",
+          "progress": 0
+        }
+      ]
+    }
+  ],
+  "profile": []
+}
